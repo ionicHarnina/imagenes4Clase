@@ -5,10 +5,13 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
+<!-- Todos los recursos locales deben estar en la carpeta de assets porque la instalacion en el terminal
+    respeta estas carpetas como propias y no se les puede dar una rura absoluta o local porque el so del movil
+  es el encargado de definir como estructura su informacion, es decir el scafolding en desarrollo, lo que ves ahora,
+es muy diferente de lo que pasa en produccion, una vez instalado en el movil -->
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+  <img src="assets/imgs/s-l1600f.jpg">
+  <ion-item>
+    <ion-button routerLink="/segunda">Segunda</ion-button>
+  </ion-item>
 </ion-content>
